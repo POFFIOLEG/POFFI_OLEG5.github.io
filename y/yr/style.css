@@ -1,0 +1,332 @@
+* {
+    box-sizing: border-box;
+}
+
+.tg {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+body {
+    background-image: url(the-beautiful-shining-stars-in-the-night-sky.jpg);
+    margin: 0;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+header.navbar.navbar-expand-lg.navbar-dark {
+    order: 3;
+    background-color: #012a52;
+    -webkit-box-shadow: 0px 20px 30px 20px #013364a1;
+    -moz-box-shadow: 0px 20px 30px 20px #013364a1;
+    box-shadow: 0px 20px 30px 20px #013364a1;
+}
+
+nav.navbar.navbar-expand-lg.bg-body-orange {
+    background-color: rgba(240, 248, 255, 0);
+}
+
+em {
+    color: white;
+}
+
+div.wrap.lh-lg.font-monospace {
+    order: 1;
+    padding: 10px;
+    margin: 70px 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 100px rgb(35, 2, 184);
+}
+
+div.wrap.lh-lg.font-monospace a {
+    color: #0099ff;
+}
+
+h5#links.text-center {
+    color: aliceblue;
+}
+
+li {
+    color: #ffffff;
+}
+
+strong {
+    color: #ffffff;
+}
+
+div.wrap1.lh-lg.font-monospace a {
+    color: #720000;
+}
+
+div.wrap1.lh-lg.font-monospace {
+    padding: 10px;
+    margin: 70px 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 100px rgb(35, 2, 184);
+}
+
+div.wrap2.lh-lg.font-monospace {
+    order: 1;
+    padding: 10px;
+    margin: 70px 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 100px rgb(35, 2, 184);
+}
+
+div.wrap3.lh-lg.font-monospace {
+    padding: 10px;
+    margin: 70px 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 100px rgb(35, 2, 184);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: #0099ff;
+}
+
+div.wrap4.lh-lg.font-monospace {
+    padding: 10px;
+    margin: 70px 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 100px rgb(35, 2, 184);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: #0099ff;
+}
+
+div.wrap5.lh-lg.font-monospace {
+    order: 1;
+    padding: 10px;
+    margin: 70px 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 100px rgb(35, 2, 184);
+}
+
+.gallery {
+    display: flex;
+    overflow-x: auto;
+}
+
+.gallery img {
+    width: 33.33%;
+}
+
+div.footer-bg-lg {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #0088ff;
+    background: -webkit-radial-gradient(circle farthest-side at top center, #0088ff 10%, #000000 100%);
+    background: -moz-radial-gradient(circle farthest-side at top center, #0088ff 10%, #000000 100%);
+    background: radial-gradient(circle farthest-side at top center, #0088ff 10%, #000000 100%);
+    color: #05b0ff;
+}
+
+form {
+    display: flex;
+    border-radius: 5px;
+    font-weight: normal;
+    border-collapse: collapse;
+    flex-flow: column wrap;
+    text-indent: inherit;
+    border-spacing: 2px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: #0099ff;
+}
+
+input {
+    width: 300px;
+    height: 45px;
+    border: none;
+    border-radius: 100px;
+    text-align: center;
+}
+
+input[type="radio" i] {
+    width: 17px;
+    height: 17px;
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    padding: initial;
+    border: initial;
+}
+
+input[type="checkbox" i] {
+    width: 17px;
+    height: 17px;
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: auto;
+    padding: initial;
+    border: initial;
+}
+
+.custom-btn {
+    width: 150px;
+    height: 60px;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+
+
+}
+
+.btn-1 {
+    background: #5260f6;
+    background: -webkit-radial-gradient(circle farthest-corner at center center, #5260f6 0%, #000000 67%);
+    background: -moz-radial-gradient(circle farthest-corner at center center, #5260f6 0%, #000000 67%);
+    background: radial-gradient(circle farthest-corner at center center, #5260f6 0%, #000000 67%);
+    border: none;
+}
+
+.btn-1:hover {
+    background: rgb(0, 3, 255);
+    background: linear-gradient(0deg, rgba(0, 3, 255, 1) 0%, rgba(2, 126, 251, 1) 100%);
+}
+
+h3#form.text-center {
+    color: #ffffff;
+}
+
+h3.text-white {
+    text-align: center;
+
+}
+
+table {
+    color: #0069ff;
+}
+
+table h2 {
+    text-align: center;
+    align-items: center;
+    color: #0004ff;
+}
+
+thead td {
+    padding: auto;
+}
+
+table tr {
+    background-color: #2bb8f0;
+}
+
+table td {
+    font-size: 16px;
+    color: #a81515;
+}
+
+table td,
+table th {
+    white-space: pre-wrap;
+    padding: 10px 5px;
+    line-height: 13px;
+    vertical-align: middle;
+    border: 1px solid #000000;
+}
+
+table tr:hover {
+    background-color: #666666
+}
+
+tr:nth-child(2n) {
+    background: #330ac7;
+
+}
+
+tr:nth-child(1) {
+    background: #2bb8f0;
+
+    color: #fff;
+
+}
+
+
+
+@media screen and (min-width: 415px) {
+    div.wrap.lh-lg.font-monospace {
+        order: 2;
+        padding: 50px;
+        margin: 70px 450px;
+        width: 800px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 100px rgb(35, 2, 184);
+    }
+
+    div.wrap1.lh-lg.font-monospace {
+        order: 1;
+        padding: 50px;
+        margin: 70px 450px;
+        width: 800px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 100px rgb(35, 2, 184);
+    }
+
+    div.wrap2.lh-lg.font-monospace {
+        order: -1;
+        padding: 50px;
+        margin: 70px 450px;
+        width: 800px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 100px rgb(35, 2, 184);
+    }
+
+    div.wrap3.lh-lg.font-monospace {
+
+        padding: 50px;
+        margin: 70px 450px;
+        width: 800px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 100px rgb(35, 2, 184);
+    }
+
+    div.wrap4.lh-lg.font-monospace {
+
+        padding: 50px;
+        margin: 70px 450px;
+        width: 800px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 100px rgb(35, 2, 184);
+    }
+
+    div.wrap5.lh-lg.font-monospace {
+
+        padding: 50px;
+        margin: 70px 450px;
+        width: 800px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 100px rgb(35, 2, 184);
+    }
+
+    .gallery {
+        display: flex;
+        overflow-x: auto;
+    }
+
+    .gallery img {
+        width: 33.33%;
+    }
+}
