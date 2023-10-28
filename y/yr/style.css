@@ -37,6 +37,7 @@ div.wrap.lh-lg.font-monospace {
     margin: 70px 25px;
     border-radius: 10px;
     box-shadow: 0px 0px 100px rgb(35, 2, 184);
+    background-color: #000000a8;
 }
 
 div.wrap.lh-lg.font-monospace a {
@@ -64,6 +65,7 @@ div.wrap1.lh-lg.font-monospace {
     margin: 70px 25px;
     border-radius: 10px;
     box-shadow: 0px 0px 100px rgb(35, 2, 184);
+    background-color: #000000a8;
 }
 
 div.wrap2.lh-lg.font-monospace {
@@ -72,6 +74,7 @@ div.wrap2.lh-lg.font-monospace {
     margin: 70px 25px;
     border-radius: 10px;
     box-shadow: 0px 0px 100px rgb(35, 2, 184);
+    background-color: #000000a8;
 }
 
 div.wrap3.lh-lg.font-monospace {
@@ -86,6 +89,7 @@ div.wrap3.lh-lg.font-monospace {
     justify-content: center;
     align-items: center;
     color: #0099ff;
+    background-color: #000000a8;
 }
 
 div.wrap4.lh-lg.font-monospace {
@@ -100,6 +104,7 @@ div.wrap4.lh-lg.font-monospace {
     justify-content: center;
     align-items: center;
     color: #0099ff;
+    background-color: #000000a8;
 }
 
 div.wrap5.lh-lg.font-monospace {
@@ -108,15 +113,19 @@ div.wrap5.lh-lg.font-monospace {
     margin: 70px 25px;
     border-radius: 10px;
     box-shadow: 0px 0px 100px rgb(35, 2, 184);
+    background-color: #000000a8;
 }
 
-.gallery {
+
+
+.slick-slide img {
+    border: 5px solid #fff;
     display: flex;
-    overflow-x: auto;
+    width: 50%;
 }
 
-.gallery img {
-    width: 33.33%;
+div.image {
+    display: inline;
 }
 
 div.footer-bg-lg {
@@ -267,6 +276,14 @@ tr:nth-child(1) {
 
 
 @media screen and (min-width: 415px) {
+    body {
+        background-image: url(low-angle-shot-of-the-mesmerizing-starry-sky.jpg);
+        margin: 0;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+
     div.wrap.lh-lg.font-monospace {
         order: 2;
         padding: 50px;
@@ -274,6 +291,7 @@ tr:nth-child(1) {
         width: 800px;
         border-radius: 10px;
         box-shadow: 0px 0px 100px rgb(35, 2, 184);
+        background-color: #000000a8;
     }
 
     div.wrap1.lh-lg.font-monospace {
@@ -283,6 +301,7 @@ tr:nth-child(1) {
         width: 800px;
         border-radius: 10px;
         box-shadow: 0px 0px 100px rgb(35, 2, 184);
+        background-color: #000000a8;
     }
 
     div.wrap2.lh-lg.font-monospace {
@@ -292,6 +311,7 @@ tr:nth-child(1) {
         width: 800px;
         border-radius: 10px;
         box-shadow: 0px 0px 100px rgb(35, 2, 184);
+        background-color: #000000a8;
     }
 
     div.wrap3.lh-lg.font-monospace {
@@ -301,6 +321,7 @@ tr:nth-child(1) {
         width: 800px;
         border-radius: 10px;
         box-shadow: 0px 0px 100px rgb(35, 2, 184);
+        background-color: #000000a8;
     }
 
     div.wrap4.lh-lg.font-monospace {
@@ -310,6 +331,7 @@ tr:nth-child(1) {
         width: 800px;
         border-radius: 10px;
         box-shadow: 0px 0px 100px rgb(35, 2, 184);
+        background-color: #000000a8;
     }
 
     div.wrap5.lh-lg.font-monospace {
@@ -319,14 +341,10 @@ tr:nth-child(1) {
         width: 800px;
         border-radius: 10px;
         box-shadow: 0px 0px 100px rgb(35, 2, 184);
+        background-color: #000000a8;
     }
 
-    .gallery {
-        display: flex;
-        overflow-x: auto;
-    }
 
-    .gallery img {
-        width: 33.33%;
-    }
+
+
 }
