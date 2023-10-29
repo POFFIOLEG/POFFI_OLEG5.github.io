@@ -92,7 +92,7 @@ div.wrap3.lh-lg.font-monospace {
     background-color: #000000a8;
 }
 
-div.wrap4.lh-lg.font-monospace {
+/* div.wrap4.lh-lg.font-monospace {
     padding: 10px;
     margin: 70px 25px;
     border-radius: 10px;
@@ -105,7 +105,7 @@ div.wrap4.lh-lg.font-monospace {
     align-items: center;
     color: #0099ff;
     background-color: #000000a8;
-}
+} */
 
 div.wrap5.lh-lg.font-monospace {
     order: 1;
@@ -245,7 +245,7 @@ table tr {
 
 table td {
     font-size: 16px;
-    color: #a81515;
+    color: #ffffff;
 }
 
 table td,
@@ -322,6 +322,16 @@ tr:nth-child(1) {
         border-radius: 10px;
         box-shadow: 0px 0px 100px rgb(35, 2, 184);
         background-color: #000000a8;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .container-lg {
+        border-color: #0099ff;
     }
 
     div.wrap4.lh-lg.font-monospace {

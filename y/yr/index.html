@@ -36,8 +36,8 @@
 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   </head>
+<body>
 
-  <body>
     <div class="tg">
       <header class="navbar navbar-expand-lg navbar-dark">
         <div class="container text-center">
@@ -473,104 +473,114 @@
         </table>
       </div>
 
-      
+
+
+
+
         <div class="wrap3 lh-lg font-monospace text-center" id="kalk1">
-        <label for="quantity">Количество товара:</label>
-        <input type="number" id="quantity" name="quantity" /><br /><br />
-
-        <label for="product">Выберите товар:</label>
-        <select id="product" name="product">
-          <option value="10">Товар 1 - 10 рублей</option>
-          <option value="20">Товар 2 - 20 рублей</option>
-          <option value="30">Товар 3 - 30 рублей</option></select
-        ><br /><br />
-
-        <button onclick="calculate()" class="op">Подсчитать стоимость</button>
-        </div>
-        <br /><br />
-        <div class="wrap4 lh-lg font-monospace text-center" id="kalk2">
-            <p>Ремонт космической станции</p>
-           
-              <select
-                name="product-choice"
-                onchange="getSum()"
-                onclick="change()"
-              >
-                <option value="1">заправка космического аппарата</option>
-                <option value="2">спутниковая услуга</option>
-                <option value="3">техническое обслуживание</option>
-              </select>
-            
-            <div id="option-choices"></div>
+          <div class="container-lg">
+            <p for="product">Выберите товар:</p>
+              <select id="product" name="product">
+                <option value="10">Товар 1 - 10 рублей</option>
+                <option value="20">Товар 2 - 20 рублей</option>
+                <option value="30">Товар 3 - 30 рублей</option></select
+              ><br />
+                <p for="quantity">Количество товара:</p>
+                <input type="number" id="quantity" name="quantity" /><br /><br />
           
-              <p>
-                введите количество
-                
-              </p>
-           <input
-                  id="amount-of-products"
-                  type="number"
-                  min="1"
-                  max="10"
-                  value="1"
-                />
-            </br>
-              <input type="button" value="Рассчитать" onclick="getSum()" />
-              <div id="result"></div>
-              <script src="mn.js"></script>
-      </div>
+        
+                <input type="button" value="Рассчитать" onclick="calculate()" class="op"/>
+                    
+                  </div>
+                    
+            <div class="container-lg " id="kalk2">
+                      <p>Ремонт космической станции</p>
+                        <select
+                          name="product-choice"
+                          onchange="getSum()"
+                          onclick="change()"
+                        >
+                          <option value="1">заправка космического аппарата</option>
+                          <option value="2">спутниковая услуга</option>
+                          <option value="3">техническое обслуживание</option>
+                        </select>
+                      
+                      <div id="option-choices"></div>
+                    
+                        <p for="quantity">
+                          Количество товара:
+                          
+                        </p>
+                    <input
+                            id="amount-of-products"
+                            type="number"
+                            min="1"
+                            max="10"
+                            value="1"
+                          />
+                      </br>
+                    </br>
+                        <input type="button" value="Рассчитать" onclick="getSum()" />
+                        <div id="result"></div>
+                        <script src="mn.js"></script>
+                </div>
+              </div>
 
-<div class="wrap5 lh-lg font-monospace text-center" >
-  <div class="slider lazy">
-    <div>
-      <div class="image">
-        <img src="first.jpg" />
-      </div>
-    </div>
-    <div>
-      <div class="image">
-        <img src="second.jpg" />
-      </div>
-    </div>
-    <div>
-      <div class="image">
-        <img src="4r.jpg" />
-      </div>
-    </div>
-    <div>
-      <div class="image">
-        <img src="5r.jpg" />
-      </div>
-    </div>
-    <div>
-      <div class="image">
-        <img src="6r.jpg" />
-      </div>
-    </div>
-    <div>
-      <div class="image">
-        <img src="7r.jpg" />
-      </div>
-    </div>
-    <div>
-      <div class="image">
-        <img src="8r.jpg" />
-      </div>
-    </div>
-    <div>
-      <div class="image">
-        <img src="9r.jpg" />
-      </div>
-    </div>
-  </div>
-</div>
-</div>     
-      </div>
-    </div>
 
- 
-    </div>
-  </div>
+
+
+
+
+
+
+
+              <div class="wrap5 lh-lg font-monospace text-center" >
+                <div class="slider lazy">
+                  <div>
+                    <div class="image">
+                      <img src="first.jpg" />
+                    </div>
+                  </div>
+                  <div>
+                    <div class="image">
+                      <img src="second.jpg" />
+                    </div>
+                  </div>
+                  <div>
+                    <div class="image">
+                      <img src="4r.jpg" />
+                    </div>
+                  </div>
+                  <div>
+                    <div class="image">
+                      <img src="5r.jpg" />
+                    </div>
+                  </div>
+                  <div>
+                    <div class="image">
+                      <img src="6r.jpg" />
+                    </div>
+                  </div>
+                  <div>
+                    <div class="image">
+                      <img src="7r.jpg" />
+                    </div>
+                  </div>
+                  <div>
+                    <div class="image">
+                      <img src="8r.jpg" />
+                    </div>
+                  </div>
+                  <div>
+                    <div class="image">
+                      <img src="9r.jpg" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+      
+          </div>
     <footer>
       <div class="footer text-center">
         <div class="footer-bg-lg">
